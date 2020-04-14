@@ -70,4 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {        //EVERYTHING HAS TO
       }
     }
   }
+  
+  //add an event listener to each square that will trigger the checkBoard function on click
+  squares.forEach(square => square.addEventListener('click', checkBoard))
 })
