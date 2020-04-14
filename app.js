@@ -1,0 +1,1 @@
+const script = 1;
